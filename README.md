@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Amazon-Clone Site
+
+This project was built for using some intermediate and advanced concepts in React.js such as Routing , Context Api etc
+
+The Website is not functional ie all the stuff are hardcoded.
+
+This project is really a good expousrue to the React/CSS ecosystem
+
+Deployment with firebase is not done yet and will be completed soon!
 
 ## Available Scripts
 
