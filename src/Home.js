@@ -6,52 +6,63 @@ import Products from "./Products";
 class Home extends Component {
   render() {
     return (
-      <div className="home">
+      <div className="parent">
         <img className="home__image" src={banner} />
-        <div className="home__row">
-          <Products
-            image={proimg}
-            id="1"
-            title="Camera"
-            price="90"
-            rating="5"
-          />
-        </div>
-        <div className="home__row">
-          <Products
-            image={proimg}
-            id="1"
-            title="Camera"
-            price="90"
-            rating="5"
-          />
-        </div>
-        <div className="home__row">
-          <Products
-            image={proimg}
-            id="1"
-            title="Camera"
-            price="90"
-            rating="5"
-          />
-        </div>
-        <div className="home__row">
-          <Products
-            image={proimg}
-            id="1"
-            title="Camera"
-            price="90"
-            rating="5"
-          />
-        </div>
-        <div className="home__row">
-          <Products
-            image={proimg}
-            id="1"
-            title="Camera"
-            price="90"
-            rating="5"
-          />
+        <div className="home">
+          <div className="home__row">
+            <Products
+              image={proimg}
+              id="1"
+              title="Camera"
+              price="90"
+              rating="5"
+            />
+          </div>
+          <div className="home__row">
+            <Products
+              image={proimg}
+              id="1"
+              title="Camera"
+              price="90"
+              rating="5"
+            />
+          </div>
+          <div className="home__row">
+            <Products
+              image={proimg}
+              id="1"
+              title="Camera"
+              price="90"
+              rating="5"
+            />
+          </div>
+          <div className="home__row">
+            <Products
+              image={proimg}
+              id="1"
+              title="Camera"
+              price="90"
+              rating="5"
+            />
+          </div>
+          <div className="home__row">
+            <Products
+              image={proimg}
+              id="1"
+              title="Camera"
+              price="90"
+              rating="5"
+            />
+            <div className="home__row">
+              <Products
+                image={proimg}
+                id="1"
+                title="Camera"
+                price="90"
+                rating="5"
+              />
+            </div>
+          </div>
         </div>
       </div>
     );

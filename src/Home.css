@@ -1,17 +1,22 @@
 .home__image {
   width: 100%;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  z-index: -1;
   margin-bottom: -150px;
+  z-index: -1;
 }
 .home {
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: horizontal;
+}
+.parent {
+  width: 100%;
+  height: 100%;
 }
 .home__row {
   display: flex;
-  z-index: 1;
+  flex-direction: horizontal;
   margin-left: 5px;
   margin-right: 5px;
 }
