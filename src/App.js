@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import "./App.css";
 import Checkout from "./Checkout";
+import Login from "./Login";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
 function App() {
@@ -22,7 +23,7 @@ function App() {
           </Route>
           <Route path="/login">
             <Header />
-            <h1>Login</h1>
+            <Login />
           </Route>
           <Route path="/">
             {/*pens if hoome is onvoked or unknown thing url*/}
